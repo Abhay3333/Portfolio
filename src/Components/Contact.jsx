@@ -43,7 +43,7 @@ const Contact = () => {
     setFormDetails(formInitialDetails);
     if (result.code === 200) {
       setStatus({ succes: true });
-      toast.success("Message sent successfully");
+      toast.success("Message sent successfully, Contact you soon");
     } else {
       setStatus({
         succes: false,
