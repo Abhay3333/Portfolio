@@ -29,7 +29,7 @@ const Contact = () => {
     e.preventDefault();
     setButtonText("Sending...");
     let response = await fetch(
-      "http://localhost:4000/api/contact",
+      "https://portfolio-backend-app.onrender.com/api/contact",
       {
         method: "POST",
         headers: {
