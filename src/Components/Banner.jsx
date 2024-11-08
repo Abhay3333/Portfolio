@@ -13,7 +13,7 @@ const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["MERN Developer", "Web Designer"];
+  const toRotate = ["MERN Developer", "Full Stack Developer","Web Designer","Web Developer","Backend Developer"];
   const period = 2000;
 
   useEffect(() => {
@@ -82,7 +82,7 @@ const Banner = () => {
                   </h1>
                   <p>
                     I excel as a full-stack developer, emphasizing my expertise
-                    in frontend development. My specialization lies in crafting
+                    in Backend development. My specialization lies in crafting
                     MERN applications.
                   </p>
                   <button onClick={downloadCV}>
